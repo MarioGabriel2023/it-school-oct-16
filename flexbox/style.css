@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.box:nth-child(3) {
+  width: 600px;
+  height: 600px;
+}
+
+.box1 {
+  background-color: blue;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: red;
+}
+
+.box4 {
+  background-color: magenta;
+}
+
+.box5 {
+  background-color: saddlebrown;
+}
+
+.box6 {
+  background-color: coral;
+}
