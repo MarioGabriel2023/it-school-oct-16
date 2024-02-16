@@ -43,43 +43,43 @@ bcr.afiseazaConturiDeschise();
 bcr.afiseazaConturiCuSoldNegativ();
 
 // 2.
-function ContBancar(numarCont, id, sold, numeDetinator) {
-  this.numarCont = numarCont;
-  this.id = id;
-  this.sold = sold;
-  this.numeDetinator = numeDetinator;
-}
+// function ContBancar(numarCont, id, sold, numeDetinator) {
+//   this.numarCont = numarCont;
+//   this.id = id;
+//   this.sold = sold;
+//   this.numeDetinator = numeDetinator;
+// }
 
-function adaugaContInBanca(banca, cont) {
-  banca.conturi.push(cont);
-}
+// function adaugaContInBanca(banca, cont) {
+//   banca.conturi.push(cont);
+// }
 
-var cont1 = new ContBancar("RO101927495", 2, 2000, "Bibica Gabriel");
+// let cont1 = new ContBancar("RO101927495", 2, 2000, "Bibica Gabriel");
 
-var banca = {
-  nume: "BCR",
-  conturi: [],
-};
+// let banca = {
+//   nume: "BCR",
+//   conturi: [],
+// };
 
-adaugaContInBanca(banca, cont1);
+// adaugaContInBanca(banca, cont1);
 
-console.log("Nume banca: " + banca.nume);
-console.log("Conturi in banca: ");
+// console.log("Nume banca: " + banca.nume);
+// console.log("Conturi in banca: ");
 
-console.log("Nume banca: " + banca.nume);
-console.log("Conturi in banca: ");
-for (var i = 0; i < banca.conturi.length; i++) {
-  console.log(
-    "Numar cont: " +
-      banca.conturi[i].numarCont +
-      ", ID: " +
-      banca.conturi[i].id +
-      ", Sold: " +
-      banca.conturi[i].sold +
-      ", Nume detinator: " +
-      banca.conturi[i].numeDetinator
-  );
-}
+// console.log("Nume banca: " + banca.nume);
+// console.log("Conturi in banca: ");
+// for (let i = 0; i < banca.conturi.length; i++) {
+//   console.log(
+//     "Numar cont: " +
+//       banca.conturi[i].numarCont +
+//       ", ID: " +
+//       banca.conturi[i].id +
+//       ", Sold: " +
+//       banca.conturi[i].sold +
+//       ", Nume detinator: " +
+//       banca.conturi[i].numeDetinator
+//   );
+// }
 
 // 3.
 function ContBancar(numarCont, id, sold, numeDetinator) {
@@ -102,9 +102,9 @@ function adaugaContInBanca(banca, cont) {
   banca.conturi.push(cont);
 }
 
-var cont1 = new ContBancar("RO101927495", 2, 2000, "Bibica Gabriel");
+let cont1 = new ContBancar("RO101927495", 2, 2000, "Bibica Gabriel");
 
-var banca = {
+let banca = {
   nume: "BCR",
   conturi: [],
 };
@@ -113,7 +113,7 @@ adaugaContInBanca(banca, cont1);
 
 console.log("Nume banca: " + banca.nume);
 console.log("Conturi in banca: ");
-for (var i = 0; i < banca.conturi.length; i++) {
+for (let i = 0; i < banca.conturi.length; i++) {
   console.log(
     "Numar cont: " +
       banca.conturi[i].numarCont +
